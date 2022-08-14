@@ -1,0 +1,51 @@
+.Button {
+    border-radius: 0 !important;
+    border: 1px solid #C4C4C4 !important;
+    width: 10%;
+    height: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: black;
+}
+.btn-color { background-color: red; }
+.btn-group {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quiz-card {
+    border: 1px solid #C4C4C4;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.quiz-card-header {
+    padding: 15px 20px;
+    background-color: #F8F9FA;
+    font-size: 20px;
+    font-weight: bold;
+}
+.quiz-card-body {
+}
+.quiz-card-body .quiz-variant {
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.quiz-card-body .quiz-variant:hover {
+    background-color: #F8F9FA;
+}
+.quiz-card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    background-color: #F8F9FA;
+}
+.btn-success {background-color: #ADFF2F;}
+.btn-error {background-color: #FF7F50;}
+.btn-selected {background-color: #D3D3D3;}
+.btn-none { background-color: white; }
+
+.success {background-color: #ADFF2F !important;}
+.error {background-color: #FF7F50 !important;}
+.selected {background-color: #D3D3D3 !important;}
+.none { background-color: white; }
