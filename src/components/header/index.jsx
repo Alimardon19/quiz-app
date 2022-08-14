@@ -1,5 +1,5 @@
 import React from "react";
-import {useLocation, useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {Button} from "@mui/material";
 import {updateModal} from "../../redux/Quiz";
@@ -10,7 +10,6 @@ import "./style.css";
 
 const Header = () => {
     const {quiz, count, modal} = useSelector(state => state.Quiz);
-    const {pathname} = useLocation();
     const navigate = useNavigate();
     const dispatch = useDispatch();
 

@@ -1,3 +1,6 @@
+.app {
+    width: 100vw;
+}
 .loader {
     position: absolute;
     top: 50%;
@@ -16,6 +19,16 @@
 .quiz-result-action {
     width: 100%;
     display: flex;
+    margin-top: 20px;
     justify-content: space-between;
 }
 .quiz-result-action button { width: 48%; }
+
+
+/* media query */
+@media (max-width: 600px) {
+    .app-content {width: 90%;}
+    .css-1onbcdx {
+        width: 90% !important;
+    }
+}
